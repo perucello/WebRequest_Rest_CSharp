@@ -53,6 +53,7 @@ namespace ConsoleAppRest
                 }                     
         }
 
+        //Get API Mocada
         public static void DoConsumiWebRestRequestMockApi_fp()
         {
             string endpoint = "https://600607e63698a80017de12e2.mockapi.io/fp";
@@ -77,8 +78,7 @@ namespace ConsoleAppRest
         }
 
 
-        //POST - https://600607e63698a80017de12e2.mockapi.io/fp
-        //project https://mockapi.io/projects/600607e63698a80017de12e3
+        //Post API Mocada
         public static void DoCondumirPost()
         {
             WebRequest request = WebRequest.Create("https://600607e63698a80017de12e2.mockapi.io/fp");
@@ -105,9 +105,7 @@ namespace ConsoleAppRest
         }
 
 
-        //PUT - https://600607e63698a80017de12e2.mockapi.io/fp
-        // parametro 1
-        //project https://mockapi.io/projects/600607e63698a80017de12e3
+        //PUT API Mocada
         public static void DoCondumirPut()
         {
             WebRequest request = WebRequest.Create("https://600607e63698a80017de12e2.mockapi.io/fp/1");
@@ -133,7 +131,7 @@ namespace ConsoleAppRest
             }
         }
 
-        //delete
+        //DELETE API Mocada
         //passar parametro
         public static void DoConsumiWebDelete()
         {
